@@ -1,0 +1,296 @@
+{
+  "version": "v1.0.0",
+  "website": "https://vfat.io",
+  "usage": "https://github.com/vfat-io/brand-assets/blob/main/USAGE.md",
+  "base_url": "https://raw.githubusercontent.com/vfat-io/brand-assets/v1.0.0/",
+  "assets": [
+    {
+      "path": "icons/vfat-icon-dark-1024.png",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "background": "transparent-corners",
+      "sha256": "187cd49fb4f26499d3c0f724dc5397b1baad45b27ee8e510b7fefdc244ee7ce4"
+    },
+    {
+      "path": "icons/vfat-icon-dark-128.png",
+      "format": "png",
+      "width": 128,
+      "height": 128,
+      "background": "transparent-corners",
+      "sha256": "fb709a6f1f6510f1cde05d96e4323f6f499f283b671028e6883efab8cadbefea"
+    },
+    {
+      "path": "icons/vfat-icon-dark-256.png",
+      "format": "png",
+      "width": 256,
+      "height": 256,
+      "background": "transparent-corners",
+      "sha256": "0976b4627bca50a6e3254488e3643e8e68dfa86d0edb5ee4b6919d5e79f6c902"
+    },
+    {
+      "path": "icons/vfat-icon-dark-512.png",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "background": "transparent-corners",
+      "sha256": "0f4aff2f07019f40433d739d79ab5f72a91ec2495e12d36e819b3ba0341c61e3"
+    },
+    {
+      "path": "icons/vfat-icon-dark-64.png",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "background": "transparent-corners",
+      "sha256": "8e0a2b32d3540826980a7f0dd3728451bea8fdfffd384e6e81378d7cdcb3b597"
+    },
+    {
+      "path": "icons/vfat-icon-dark.svg",
+      "format": "svg",
+      "width": 422.63,
+      "height": 422.63,
+      "background": "transparent-corners",
+      "sha256": "f508f6a260121158f63b5c10e448e397cdd11a628e0fcfff73b1b63eefb42e95"
+    },
+    {
+      "path": "icons/vfat-icon-light-1024.png",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "background": "transparent-corners",
+      "sha256": "6bfb34a0651b5fd1fcb01034f959960674df22610b2823a3f4a23c0f208d31e1"
+    },
+    {
+      "path": "icons/vfat-icon-light-128.png",
+      "format": "png",
+      "width": 128,
+      "height": 128,
+      "background": "transparent-corners",
+      "sha256": "76e0d1998718ee586e2e2344ec0408ff1f457cc6af60f87f2843054c44054afb"
+    },
+    {
+      "path": "icons/vfat-icon-light-256.png",
+      "format": "png",
+      "width": 256,
+      "height": 256,
+      "background": "transparent-corners",
+      "sha256": "0b0cb951c16a5b46899e24289614924fc6f722530a202cb8ef346a1469611a40"
+    },
+    {
+      "path": "icons/vfat-icon-light-512.png",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "background": "transparent-corners",
+      "sha256": "544da3674eacb8c93b82edd219ff0fdb3c249119ba6e70fb2e34edc50680c1bd"
+    },
+    {
+      "path": "icons/vfat-icon-light-64.png",
+      "format": "png",
+      "width": 64,
+      "height": 64,
+      "background": "transparent-corners",
+      "sha256": "0264f94e385ffb4e6e7d26b476b108d760464ade95ac5581accd48c9cc2a5a7d"
+    },
+    {
+      "path": "icons/vfat-icon-light.svg",
+      "format": "svg",
+      "width": 422.63,
+      "height": 422.63,
+      "background": "transparent-corners",
+      "sha256": "7c1c74e69ca42f9e31858baa2411cbdd4a72f08f544976bcbac4cd1e89d84bcc"
+    },
+    {
+      "path": "logos/horizontal/vfat-logo-black-1024.png",
+      "format": "png",
+      "width": 1024,
+      "height": 347,
+      "background": "transparent",
+      "sha256": "64ab5f6e9b8b6a3093066ebbe1d58453ae0807067ea0067b9b4e6c3fd4629c97"
+    },
+    {
+      "path": "logos/horizontal/vfat-logo-black-2048.png",
+      "format": "png",
+      "width": 2048,
+      "height": 695,
+      "background": "transparent",
+      "sha256": "799244382329628aaa0431f28c216fb2e0179d3c50277a4a3f4bdb3252339d08"
+    },
+    {
+      "path": "logos/horizontal/vfat-logo-black-512.png",
+      "format": "png",
+      "width": 512,
+      "height": 174,
+      "background": "transparent",
+      "sha256": "1fb94a307d041f8ba005c99b38dfaedb875505c033b7fdd6a6cd712a9592bf60"
+    },
+    {
+      "path": "logos/horizontal/vfat-logo-black.svg",
+      "format": "svg",
+      "width": 840,
+      "height": 285,
+      "background": "transparent",
+      "sha256": "4b0b92a44c315228c8788b3f93e155e14eabd43e11d9e2271649856ea22a35b4"
+    },
+    {
+      "path": "logos/horizontal/vfat-logo-white-1024.png",
+      "format": "png",
+      "width": 1024,
+      "height": 347,
+      "background": "transparent",
+      "sha256": "64732448c8534d4e62cd76d74850af06489e6b324e883d62792949cb71c6685f"
+    },
+    {
+      "path": "logos/horizontal/vfat-logo-white-2048.png",
+      "format": "png",
+      "width": 2048,
+      "height": 695,
+      "background": "transparent",
+      "sha256": "77dafdd38fd5a356ea650b3a46b5b32658ab0b461b0373779144585ebd5bc1f5"
+    },
+    {
+      "path": "logos/horizontal/vfat-logo-white-512.png",
+      "format": "png",
+      "width": 512,
+      "height": 174,
+      "background": "transparent",
+      "sha256": "5ad1a965ad3b975092892c536010e64ee88c4b91dbe61d8f4c95a2ff3c2dcee9"
+    },
+    {
+      "path": "logos/horizontal/vfat-logo-white.svg",
+      "format": "svg",
+      "width": 840,
+      "height": 285,
+      "background": "transparent",
+      "sha256": "46de1f924e2bfee8b21deb390f6ecb5e69a9ae260589f8bdaa181b28daf525b3"
+    },
+    {
+      "path": "logos/mark/vfat-mark-black-1024.png",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "background": "transparent",
+      "sha256": "340bec594604656bfbea2ca3d27094899a33fcc3fac6a105a0c8aee787abdcfe"
+    },
+    {
+      "path": "logos/mark/vfat-mark-black-256.png",
+      "format": "png",
+      "width": 256,
+      "height": 256,
+      "background": "transparent",
+      "sha256": "69f000a4da7289b3906f9a2a8d0d2ff5606a03b394c6df048a88ed90c06183fd"
+    },
+    {
+      "path": "logos/mark/vfat-mark-black-512.png",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "background": "transparent",
+      "sha256": "1f1727b51cf0ad1086525d28d182418e22712454b0d6c9e4b9f362531230c2a9"
+    },
+    {
+      "path": "logos/mark/vfat-mark-black.svg",
+      "format": "svg",
+      "width": 285,
+      "height": 285,
+      "background": "transparent",
+      "sha256": "654126c134d01fb14832531c4510c5b5cf4ea7841fd2ae748db27fc2dbd16aad"
+    },
+    {
+      "path": "logos/mark/vfat-mark-white-1024.png",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "background": "transparent",
+      "sha256": "af53849ddedb3bc9ad7bd853ba0519d27b81691aa5436b5f8cb6049ca4e723d5"
+    },
+    {
+      "path": "logos/mark/vfat-mark-white-256.png",
+      "format": "png",
+      "width": 256,
+      "height": 256,
+      "background": "transparent",
+      "sha256": "619fdf0ae3cb05b07b5fa2d8c42aadd20b1529ee00ed94fc046fdbb17cfdea11"
+    },
+    {
+      "path": "logos/mark/vfat-mark-white-512.png",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "background": "transparent",
+      "sha256": "bbd86e0ed1de4477456b01b63283d0f1c76365b05b389eefa844a47885228482"
+    },
+    {
+      "path": "logos/mark/vfat-mark-white.svg",
+      "format": "svg",
+      "width": 285,
+      "height": 285,
+      "background": "transparent",
+      "sha256": "659f0f2586923156dc0033a2c01f626f1ae6460d997976674e09763dcf59e8c9"
+    },
+    {
+      "path": "social/vfat-social-landscape-dark.png",
+      "format": "png",
+      "width": 1200,
+      "height": 630,
+      "background": "#121113",
+      "sha256": "b0ebadf3088575d563f7416223edb102e7b8b924566d458310457ec0f98456ca"
+    },
+    {
+      "path": "social/vfat-social-landscape-dark.svg",
+      "format": "svg",
+      "width": 1200,
+      "height": 630,
+      "background": "#121113",
+      "sha256": "867fed05dabd92b18290f9171ab8ae43f321b18bfc10e1d587602d3f0516b559"
+    },
+    {
+      "path": "social/vfat-social-landscape-light.png",
+      "format": "png",
+      "width": 1200,
+      "height": 630,
+      "background": "#ffffff",
+      "sha256": "0a23af187d6657bb9368b3b9cc722c1befa4acd1d5f2019d92df78abca878ede"
+    },
+    {
+      "path": "social/vfat-social-landscape-light.svg",
+      "format": "svg",
+      "width": 1200,
+      "height": 630,
+      "background": "#ffffff",
+      "sha256": "c1139fdb40485cdcaef0ae28d3f938bbbaa45258cfc782f024e1c8bff2fe45a2"
+    },
+    {
+      "path": "social/vfat-social-square-dark.png",
+      "format": "png",
+      "width": 1080,
+      "height": 1080,
+      "background": "#121113",
+      "sha256": "936188ca6cf9ec8818ff5ed895953926ed1db8a0c6b0d8c7d4a8fa3572570634"
+    },
+    {
+      "path": "social/vfat-social-square-dark.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1080,
+      "background": "#121113",
+      "sha256": "de350890a49bb8725c104e6b52abc5dc874d1504a5bde6a92980a31f9f7c4a0b"
+    },
+    {
+      "path": "social/vfat-social-square-light.png",
+      "format": "png",
+      "width": 1080,
+      "height": 1080,
+      "background": "#ffffff",
+      "sha256": "58a1995ed96baa6ba73714d0735347890eed00826fda72c9472fc0d973585112"
+    },
+    {
+      "path": "social/vfat-social-square-light.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1080,
+      "background": "#ffffff",
+      "sha256": "8bf84177288d301c1c2d4c2e8a77223c8703428b6c9b74474aa6d3c79a1865df"
+    }
+  ]
+}
