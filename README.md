@@ -52,16 +52,23 @@ Files on `main` may evolve. Use a release tag or commit SHA when you need fixed 
 
 ## Colors and type
 
-| Role | Value |
-| --- | --- |
-| Black logo | `#000000` |
-| White logo / text | `#FFFFFF` |
-| Social background | `#121113` |
-| App icon background | `#262626` |
-| Accent used in VFAT social cards | `#009AFF` |
-| Supporting typography | Roboto |
+| Color | Value | Key | Use |
+| --- | --- | --- | --- |
+| Black | `#000000` | `black` | Logo and text on light backgrounds |
+| White | `#FFFFFF` | `white` | Logo and text on dark backgrounds; text on Blue |
+| Dark background | `#121113` | `social-background` | Social images and VFAT's dark theme |
+| Icon background | `#262626` | `icon-background` | Dark app icon |
+| Light background | `#EDECEF` | `light-background` | VFAT's light theme |
+| Blue | `#1D5BF0` | `accent` | Buttons, links, and accents |
+| Light blue | `#75A5FF` | `accent-on-dark` | Blue text on dark backgrounds |
 
-The horizontal logo pairs the existing bird with outlined Roboto Black lettering. Use the supplied black or white logo treatments. The blue is a supporting accent. Machine-readable values are in [colors.json](colors.json).
+Contrast for text:
+
+- White on Blue: 5.5:1, so white labels work on Blue buttons.
+- Blue on white: 5.5:1; on Light background: 4.7:1.
+- Light blue on Dark background: 7.7:1. Blue on Dark background is 3.4:1: use it there for large text, rules, and fills, not body text.
+
+The logo stays black or white; the blues are supporting colors. Typography is Roboto: the horizontal logo pairs the bird with outlined Roboto Black lettering. Machine-readable values are in [colors.json](colors.json), and as CSS custom properties, such as `--vfat-accent`, in [colors.css](colors.css). Copy the file into your project rather than linking to it.
 
 ## Usage and maintenance
 

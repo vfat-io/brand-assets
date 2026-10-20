@@ -26,6 +26,12 @@ For a joint announcement, place your logo and a supplied VFAT logo in your own l
 - Avoid stretching, recoloring, rotating, adding outlines or effects, placing text over the logo, or combining it into a new logo.
 - Social images have their own spacing. Keep their original aspect ratio when posting them as supplied.
 
+## Colors
+
+- Keep the logo black or white. Use the [palette](README.md#colors-and-type) for the surrounding design.
+- For a button or link that opens VFAT, Blue (`#1D5BF0`) with white text matches the app.
+- On dark backgrounds, use Light blue (`#75A5FF`) for blue text.
+
 ## Permission
 
 These assets are available for accurate references to VFAT in integrations, app listings, referral links, articles, and social posts, including commercial projects. Follow the [brand asset permission](LICENSE.md). Access to this kit does not by itself establish a partnership, endorsement, or referral arrangement.

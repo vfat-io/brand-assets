@@ -234,7 +234,7 @@
       "width": 1200,
       "height": 630,
       "background": "#121113",
-      "sha256": "b0ebadf3088575d563f7416223edb102e7b8b924566d458310457ec0f98456ca"
+      "sha256": "c7851d037cf4d5120de2b3c41ee8033251cc8f19517eecb6921d7485467c22a5"
     },
     {
       "path": "social/vfat-social-landscape-dark.svg",
@@ -242,7 +242,7 @@
       "width": 1200,
       "height": 630,
       "background": "#121113",
-      "sha256": "867fed05dabd92b18290f9171ab8ae43f321b18bfc10e1d587602d3f0516b559"
+      "sha256": "24fd1823b2438138dc106a0c3f35e01333aac0f0870103f0c5c81a81ce28d97a"
     },
     {
       "path": "social/vfat-social-landscape-light.png",
@@ -250,7 +250,7 @@
       "width": 1200,
       "height": 630,
       "background": "#ffffff",
-      "sha256": "0a23af187d6657bb9368b3b9cc722c1befa4acd1d5f2019d92df78abca878ede"
+      "sha256": "ab049284c1a2045858fe99e8078ff06e6fb9a3131302d09397816cdd60161d0e"
     },
     {
       "path": "social/vfat-social-landscape-light.svg",
@@ -258,7 +258,7 @@
       "width": 1200,
       "height": 630,
       "background": "#ffffff",
-      "sha256": "c1139fdb40485cdcaef0ae28d3f938bbbaa45258cfc782f024e1c8bff2fe45a2"
+      "sha256": "d36a43059229f7309224925871b39794724f9ff92d523152b01075450623cc27"
     },
     {
       "path": "social/vfat-social-square-dark.png",
@@ -266,7 +266,7 @@
       "width": 1080,
       "height": 1080,
       "background": "#121113",
-      "sha256": "936188ca6cf9ec8818ff5ed895953926ed1db8a0c6b0d8c7d4a8fa3572570634"
+      "sha256": "576648183351c27955403669086e3ddf543f2d2405fff8d6d01f4116eb6372ba"
     },
     {
       "path": "social/vfat-social-square-dark.svg",
@@ -274,7 +274,7 @@
       "width": 1080,
       "height": 1080,
       "background": "#121113",
-      "sha256": "de350890a49bb8725c104e6b52abc5dc874d1504a5bde6a92980a31f9f7c4a0b"
+      "sha256": "3ccd24945241fa8a68fcec8fe76c33ccd16aab53ba43f3cb2126955f701d7eb7"
     },
     {
       "path": "social/vfat-social-square-light.png",
@@ -282,7 +282,7 @@
       "width": 1080,
       "height": 1080,
       "background": "#ffffff",
-      "sha256": "58a1995ed96baa6ba73714d0735347890eed00826fda72c9472fc0d973585112"
+      "sha256": "cc484a4aa6508143e7af7fc14751a81f37abbcca0ec3b94e9c8020df00b8cb25"
     },
     {
       "path": "social/vfat-social-square-light.svg",
@@ -290,7 +290,7 @@
       "width": 1080,
       "height": 1080,
       "background": "#ffffff",
-      "sha256": "8bf84177288d301c1c2d4c2e8a77223c8703428b6c9b74474aa6d3c79a1865df"
+      "sha256": "fab3ccdd2075c11cffb9dc9263ce8205b86a7c72a3bb18c79629b7a08f9b4fe7"
     },
     {
       "path": "social/vfat-x-banner-dark.png",
@@ -298,7 +298,7 @@
       "width": 1500,
       "height": 500,
       "background": "#121113",
-      "sha256": "c6a34f082e16ed19f5687ef59776083dc87cf016357954608849d2b2adf504c7"
+      "sha256": "14eca8d40c4a040dfd8fa81b36fddc0daf0d4d50d36eb12eaeeab0808c4d1b55"
     },
     {
       "path": "social/vfat-x-banner-dark.svg",
@@ -306,7 +306,7 @@
       "width": 1500,
       "height": 500,
       "background": "#121113",
-      "sha256": "cb7e60cbae680475df7c635d113c82376e0f5b0a78c5fe10cc9608b12fed0af1"
+      "sha256": "33a102e808dc3d4a80c922dc767f5bd73244b002afa8d0b1eaa05792d2b370b6"
     },
     {
       "path": "social/vfat-x-banner-light.png",
@@ -314,7 +314,7 @@
       "width": 1500,
       "height": 500,
       "background": "#ffffff",
-      "sha256": "0815051403c98492003de3c37a268dad0c01e56f1b94b553a099c427a51e74bd"
+      "sha256": "9a0eb4308c5d8953ecd87915838a0aa2d7a9f3f9e9846474fcdf5032585b7d15"
     },
     {
       "path": "social/vfat-x-banner-light.svg",
@@ -322,7 +322,7 @@
       "width": 1500,
       "height": 500,
       "background": "#ffffff",
-      "sha256": "aa7fc91eaabc2d5528823fd8976e5ea7bb9f7da15dc912075bdab1f2b4ebf599"
+      "sha256": "4f1f984e88935aa86ae9933279dd65408f788908ef52ae17bb38b37815539c2a"
     }
   ]
 }

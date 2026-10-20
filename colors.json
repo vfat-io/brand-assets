@@ -3,5 +3,7 @@
   "white": "#ffffff",
   "social-background": "#121113",
   "icon-background": "#262626",
-  "accent": "#009aff"
+  "light-background": "#edecef",
+  "accent": "#1d5bf0",
+  "accent-on-dark": "#75a5ff"
 }
