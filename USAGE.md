@@ -12,6 +12,8 @@
 
 Use the supplied landscape or square PNG for a ready-to-upload VFAT image. Choose the aspect ratio that fits your post and check the platform preview before publishing. The SVG companions can be placed in a design tool; their lettering is already outlined.
 
+The 1500 × 500 X banner is a profile header. Upload it as supplied: its layout keeps the lower-left corner, where X places the profile photo, clear.
+
 For a joint announcement, place your logo and a supplied VFAT logo in your own layout with clear spacing and similar visual prominence. Keep the VFAT artwork intact. The supplied cards are neutral brand images; add factual announcement copy in your post or surrounding design. You can tag **[@vfat_io](https://x.com/vfat_io)**.
 
 ## Legibility and layout

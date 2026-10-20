@@ -11,7 +11,7 @@ import cairosvg
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "v1.0.0"
+VERSION = "v1.1.0"
 NS = "http://www.w3.org/2000/svg"
 ASSETS = []
 COLORS = {
@@ -57,6 +57,10 @@ def main():
         square += shape("domain", 482, 932, 116, foreground)
         export(f"social/vfat-social-square-{theme}", 1080, 1080,
                square, background, [1080], size_suffix=False)
+        # The accent is too light for text on white.
+        tagline = COLORS["accent"] if theme == "dark" else foreground
+        export(f"social/vfat-x-banner-{theme}", 1500, 500,
+               banner(background, foreground, tagline), background, [1500], size_suffix=False)
 
     (ROOT / "colors.json").write_text(json.dumps(COLORS, indent=2) + "\n")
     manifest = {
@@ -81,8 +85,25 @@ def shape(name, x, y, width, color):
             f'translate({-left:g} {-top:g})">{paths}</g>')
 
 
+def fit(name, x, y, width, height, color):
+    # As large as the box allows, so edited lettering keeps the layout.
+    svg = ET.parse(ROOT / "sources" / f"{name}.svg").getroot()
+    _, _, source_width, source_height = map(float, svg.attrib["viewBox"].split())
+    scale = min(width / source_width, height / source_height)
+    return shape(name, x, y + (height - source_height * scale) / 2, source_width * scale, color)
+
+
 def lockup(color):
     return shape("bird", 16, 20, 245, color) + shape("wordmark", 318, 90, 480, color)
+
+
+def banner(background, foreground, tagline):
+    # X shows the header at 3:1 and covers its lower left with the profile photo,
+    # so the lockup sits right of centre, clear of that corner.
+    body = rect(1500, 500, background)
+    body += f'<g transform="translate(234 148) scale(0.66)">{lockup(foreground)}</g>'
+    body += f'<rect x="844" y="172" width="3" height="136" fill="{COLORS["accent"]}"/>'
+    return body + fit("tagline", 902, 172, 444, 136, tagline)
 
 
 def rect(width, height, color, radius=0):
@@ -119,7 +140,7 @@ def record(path, width, height, background):
 
 def preview():
     # Pillow's bundled font keeps the documentation preview reproducible.
-    sheet = Image.new("RGB", (1280, 1512), "#eeedef")
+    sheet = Image.new("RGB", (1280, 1848), "#eeedef")
     draw = ImageDraw.Draw(sheet)
     title_font = ImageFont.load_default(size=36)
     label_font = ImageFont.load_default(size=20)
@@ -134,14 +155,17 @@ def preview():
         ("icons/vfat-icon-light-512.png", "#121113", "App icon / light"),
         ("social/vfat-social-landscape-dark.png", "#121113", "Social landscape / 1200 x 630"),
         ("social/vfat-social-square-light.png", "#ffffff", "Social square / 1080 x 1080"),
+        ("social/vfat-x-banner-dark.png", "#121113", "X banner / 1500 x 500"),
     ]
     for index, (path, background, label) in enumerate(samples):
         x, y = 40 + (index % 2) * 620, 148 + (index // 2) * 336
-        tile = Image.new("RGB", (580, 272), background)
+        # The 3:1 banner takes a full row.
+        wide = index == 8
+        tile = Image.new("RGB", (1200 if wide else 580, 272), background)
         asset = Image.open(ROOT / path).convert("RGBA")
-        limit = (540, 240) if index in (2, 3, 6, 7) else (210, 210)
+        limit = (1140, 240) if wide else (540, 240) if index in (2, 3, 6, 7) else (210, 210)
         asset.thumbnail(limit, Image.Resampling.LANCZOS)
-        tile.paste(asset, ((580 - asset.width) // 2, (272 - asset.height) // 2), asset)
+        tile.paste(asset, ((tile.width - asset.width) // 2, (272 - asset.height) // 2), asset)
         sheet.paste(tile, (x, y))
         draw.text((x, y + 286), label, fill="#121113", font=label_font)
     (ROOT / "previews").mkdir(exist_ok=True)
