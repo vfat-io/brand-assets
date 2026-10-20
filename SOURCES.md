@@ -38,6 +38,10 @@ To change lettering, such as the banner's tagline, edit `LETTERING` in `scripts/
 
 The outliner rewrites every lettering master. With the frontend's font files, the unchanged ones come out byte-identical; other Roboto builds can change them. The banner scales its tagline to fit its box, so check the banner after a longer or shorter line.
 
-Review the preview sheet at `previews/brand-kit.png`, check transparency and dimensions, and inspect changes before publishing. Keep existing version tags unchanged. For a new release, update `VERSION` in the builder and the versioned examples in the README, regenerate assets, and publish a new tag.
+Review the preview sheet at `previews/brand-kit.png`, check transparency and dimensions, and inspect changes before publishing. The Build workflow rebuilds every pull request on Ubuntu 24.04 and fails if the committed assets differ from the build, so commit the rebuilt files with each change.
 
-The release ZIP contains `README.md`, `USAGE.md`, `LICENSE.md`, `SOURCES.md`, `colors.json`, `colors.css`, `manifest.json`, and the `logos/`, `icons/`, `social/`, `sources/`, and `previews/` directories. The GitHub source archive additionally contains the export and outline scripts and the dependency list.
+## Release
+
+Update `VERSION` in the builder and the versioned links in the README, rebuild, and merge. Then push the matching tag from `main`, for example `git tag v1.1.0 && git push origin v1.1.0`. The Release workflow checks the tag against `VERSION`, rebuilds, and packages the ZIP and `SHA256SUMS.txt` with `scripts/package.py`. It attaches them to a draft release: write the notes and publish it. Keep existing version tags unchanged.
+
+The release ZIP contains `README.md`, `USAGE.md`, `LICENSE.md`, `SOURCES.md`, `colors.json`, `colors.css`, `manifest.json`, and the `logos/`, `icons/`, `social/`, `sources/`, and `previews/` directories. The GitHub source archive additionally contains the scripts, the workflows, and the dependency list.
