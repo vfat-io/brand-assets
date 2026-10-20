@@ -1,8 +1,8 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "website": "https://vfat.io",
   "usage": "https://github.com/vfat-io/brand-assets/blob/main/USAGE.md",
-  "base_url": "https://raw.githubusercontent.com/vfat-io/brand-assets/v1.0.0/",
+  "base_url": "https://raw.githubusercontent.com/vfat-io/brand-assets/v1.1.0/",
   "assets": [
     {
       "path": "icons/vfat-icon-dark-1024.png",
@@ -291,6 +291,38 @@
       "height": 1080,
       "background": "#ffffff",
       "sha256": "8bf84177288d301c1c2d4c2e8a77223c8703428b6c9b74474aa6d3c79a1865df"
+    },
+    {
+      "path": "social/vfat-x-banner-dark.png",
+      "format": "png",
+      "width": 1500,
+      "height": 500,
+      "background": "#121113",
+      "sha256": "c6a34f082e16ed19f5687ef59776083dc87cf016357954608849d2b2adf504c7"
+    },
+    {
+      "path": "social/vfat-x-banner-dark.svg",
+      "format": "svg",
+      "width": 1500,
+      "height": 500,
+      "background": "#121113",
+      "sha256": "cb7e60cbae680475df7c635d113c82376e0f5b0a78c5fe10cc9608b12fed0af1"
+    },
+    {
+      "path": "social/vfat-x-banner-light.png",
+      "format": "png",
+      "width": 1500,
+      "height": 500,
+      "background": "#ffffff",
+      "sha256": "0815051403c98492003de3c37a268dad0c01e56f1b94b553a099c427a51e74bd"
+    },
+    {
+      "path": "social/vfat-x-banner-light.svg",
+      "format": "svg",
+      "width": 1500,
+      "height": 500,
+      "background": "#ffffff",
+      "sha256": "aa7fc91eaabc2d5528823fd8976e5ea7bb9f7da15dc912075bdab1f2b4ebf599"
     }
   ]
 }

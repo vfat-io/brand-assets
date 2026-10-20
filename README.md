@@ -16,6 +16,7 @@ Official VFAT logos, app icons, and social images for app integrations, referral
 | Referral button, app directory, or compact card | Square app icon | [Dark SVG](icons/vfat-icon-dark.svg) · [Dark PNG 512](icons/vfat-icon-dark-512.png) · [Light SVG](icons/vfat-icon-light.svg) · [Light PNG 512](icons/vfat-icon-light-512.png) |
 | Landscape social post or link preview | 1200 × 630 image | [Dark PNG](social/vfat-social-landscape-dark.png) · [Light PNG](social/vfat-social-landscape-light.png) |
 | Square social post | 1080 × 1080 image | [Dark PNG](social/vfat-social-square-dark.png) · [Light PNG](social/vfat-social-square-light.png) |
+| X profile header | 1500 × 500 banner | [Dark PNG](social/vfat-x-banner-dark.png) · [Light PNG](social/vfat-x-banner-light.png) |
 
 SVGs scale to any size and have outlined lettering: no font installation is required. PNG logos have transparent backgrounds. Square icons have rounded, transparent corners; social images have solid backgrounds. A white logo may appear blank in a white image viewer.
 
@@ -28,7 +29,7 @@ Download and serve the asset from your own app for production. For a direct link
 ```html
 <a href="https://vfat.io" aria-label="Open VFAT">
   <img
-    src="https://raw.githubusercontent.com/vfat-io/brand-assets/v1.0.0/icons/vfat-icon-dark-128.png"
+    src="https://raw.githubusercontent.com/vfat-io/brand-assets/v1.1.0/icons/vfat-icon-dark-128.png"
     alt="VFAT"
     width="32"
     height="32"
@@ -43,7 +44,7 @@ Use `alt="VFAT"` for a standalone logo, or `alt=""` when adjacent text already n
 ## Stable links and downloads
 
 - [Complete ZIP](https://github.com/vfat-io/brand-assets/releases/latest/download/vfat-brand-assets.zip): a convenient shareable download for designers and partners.
-- [Version 1.0.0](https://github.com/vfat-io/brand-assets/releases/tag/v1.0.0): a fixed kit version for integrations.
+- [Version 1.1.0](https://github.com/vfat-io/brand-assets/releases/tag/v1.1.0): a fixed kit version for integrations.
 - [Asset manifest](manifest.json): filenames, dimensions, backgrounds, and SHA-256 checksums. Append each `path` to `base_url` for its versioned raw URL.
 - [Release history](https://github.com/vfat-io/brand-assets/releases): changes and downloadable versions.
 
